@@ -1,7 +1,7 @@
 # LÖVE 2D Blob and Sand Simulation
 
 This repository contains two distinct LÖVE 2D simulations: "Sando" (falling sand) and "Lavo" (interactive blobs). Each simulation explores different visual and physics concepts, offering unique interactive experiences.
-
+![sando banner](https://raw.githubusercontent.com/2105789/PixelFlowo/main/Sando.png)
 ## 1. Sando: Interactive Falling Sand Simulation
 
 **Sando.lua** creates a captivating visual experience reminiscent of classic falling sand games. It uses a grid-based system to simulate sand-like particles with customizable colors, wind interaction, and even anti-gravity.
@@ -95,7 +95,8 @@ The `antigravity` flag determines the direction of the gravitational force.  Whe
 - **A Key:** Wind blows left.
 - **D Key:** Wind blows right.
 - **Space Key:** Toggle anti-gravity.
-
+- 
+![lavo banner](https://raw.githubusercontent.com/2105789/PixelFlowo/main/Lavo.png)
 ## 2. Lavo.lua: Blob Simulation with Metaballs and Particles
 
 **Lavo.lua** presents a mesmerizing simulation of colorful, pulsating blobs that interact with each other and their environment. The simulation utilizes the metaballs algorithm to achieve smooth, organic-looking blob merging.
@@ -207,4 +208,3 @@ This code snippet demonstrates how particles are emitted from each blob. It gene
 
 These simulations were created using the LÖVE 2D framework: [https://love2d.org/](https://love2d.org/).
 
-Let me know if you have any other questions about how the simulations work!
